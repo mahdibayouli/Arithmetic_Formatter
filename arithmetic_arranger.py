@@ -14,7 +14,6 @@ def layout(lstlst, calculate):
     else:
         return '\n'.join(result[:len(result)-1])
 
-
 def arithmetic_arranger(problems, calculate=False):
     if(len(problems) > 5):
         return 'Error: Too many problems.'
